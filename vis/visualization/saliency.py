@@ -6,7 +6,7 @@ from scipy.ndimage.interpolation import zoom
 from tensorflow.keras.layers.convolutional import _Conv
 from tensorflow.keras.layers.pooling import _Pooling1D, _Pooling2D, _Pooling3D
 from tensorflow.keras.layers.wrappers import Wrapper
-from keras import backend as K
+from tensorflow.keras import backend as K
 
 from ..losses import ActivationMaximization
 from ..optimizer import Optimizer

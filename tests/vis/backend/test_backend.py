@@ -8,7 +8,7 @@ import keras
 from tensorflow.keras.models import Model, Input, Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.initializers import Constant
-from keras import backend as K
+from tensorflow.keras import backend as K
 from tensorflow.keras.activations import get
 from tensorflow.keras.layers import advanced_activations, Activation
 
