@@ -127,7 +127,7 @@ It is possible to generate an animated gif of optimization progress by leveragin
 activation maximization for 'ouzel' class (output_index: 20).
 
 ```python
-from keras.applications import VGG16
+from tensorflow.keras.applications import VGG16
 
 from vis.losses import ActivationMaximization
 from vis.regularizers import TotalVariation, LPNorm
