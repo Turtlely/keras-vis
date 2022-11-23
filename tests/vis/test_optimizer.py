@@ -1,6 +1,6 @@
 import pytest
 
-import tensorflow.keras.backend as K
+from tensorflow import keras.backend as K
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 from vis.optimizer import Optimizer
